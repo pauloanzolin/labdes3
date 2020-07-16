@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireshark</title>
+    <HTML>
+    </HEAD>
+
+    <form method="GET" action="arquivo.php" name="form1">
+        <table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+          <tbody>
+            <tr>
+              <td colspan="2" rowspan="1">Wireshark</td>
+            </tr>
+
+            <tr>
+                <td> Para download do arquivo: </td>
+                <td><A HREF="https://drive.google.com/file/d/1F-S32TgjFVOQ4x1iVoES-oxfjQmMXuCN/view?usp=sharing"
+                    TARGET=“_blank”> Download </A></td>
+            </tr>
+
+            <tr>
+              <td>Para abrir o arquivo: </td>
+              <td><input type="hidden" name="FILEIP" value="4194304" />
+
+                <input type="file" /></td>
+            </tr>  
+
+            <tr>
+                <td><input value="&lt;&lt; Limpar &gt;&gt;" type="reset"></td>
+                <td><input value="&lt;&lt; Enviar &gt;&gt;" type="submit"></td>
+              </tr>
+          </tbody>
+        </table>
+        <br>
+      </form></body></html>
+
+    </BODY>
+    </HTML>
+</head>
+</html>
